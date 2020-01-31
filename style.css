@@ -1,0 +1,33 @@
+.main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 25px;
+}
+
+.item {
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #D3D3D3;
+    max-width: 600px;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.btn {
+    height: 20px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px gray;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
